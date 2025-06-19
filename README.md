@@ -32,7 +32,7 @@ I answered the following quentions from the dataset:
 # Data Preparation
 This process involves cleaning, transforming, and enriching the data to prepare it for analysis. After downloading the raw Excel file, it was converted to a CSV (comma-delimited) format. Duplicates were removed, and column data types were adjusted to align with the data types defined in the PostgreSQL relational database schema, ensuring seamless data loading and minimizing errors. Additionally, date formats were standardized to match the expected database format for consistency and accuracy.
 # Data Loading
-The second step in the data preparation process involved transferring data from the original source—Excel into the PostgreSQL database. I created two separate tables, order_details and menu_items, and successfully imported the cleaned CSV files into each table making use of the query shown in the image below.
+The second step in the data preparation process involved transferring data from the original source, Excel into the PostgreSQL database. I created two separate tables, order_details and menu_items, and successfully imported the cleaned CSV files into each table making use of the query shown in the image below.
 
 ![image](https://github.com/user-attachments/assets/c6b99a31-184a-45bf-b27f-e28c42b7f234)
 # Analysis and Findings
@@ -111,6 +111,18 @@ The top 5 highest spend orders reveal customers' preference for premium items, o
 
 ![image](https://github.com/user-attachments/assets/6c024669-78ff-412c-a48e-8487fbfa2498)
 ![image](https://github.com/user-attachments/assets/3147c3ee-374d-4998-8319-72d88f7d1948)
+
+# Recommendations
+- **Promote high-value Italian dishes:**
+Italian cuisine has the highest average price and features heavily in top-spending orders. Leverage this with special promotions or combo deals.
+- **Expand or refine American offerings:**
+The American category has the fewest dishes and lowest average price. Consider diversifying it to enhance its appeal and revenue potential.
+- **Leverage popular cuisines in marketing:**
+Italian and Mexican dishes are well-represented; use targeted marketing to attract fans of these cuisines and increase customer engagement.
+- **Create bundles from high-spend order patterns:**
+Analyze frequent item combinations in top orders and package them into value-driven meal bundles or signature selections.
+- **Review and optimize pricing strategies:**
+Use category performance insights to adjust pricing, ensuring alignment with customer value perception and maximizing profitability.
 
 # Thank you For Following Through
 
