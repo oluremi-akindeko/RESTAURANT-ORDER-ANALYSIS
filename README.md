@@ -1,6 +1,6 @@
 # Analysis of Orders received by a Restaurant Using SQL
 # Introduction
-At the start of the year, a restaurant launched a freshly curated menu aimed at offering a unique dining experience. To better understand customer preferences, spending habits, and overall menu performance, this project focuses on analyzing the restaurant’s order data using SQL.
+At the start of the year, Freshy Foods launched a freshly curated menu aimed at offering a unique dining experience. To better understand customer preferences, spending habits, and overall menu performance, this project focuses on analyzing the restaurant’s order data using SQL.
 ## Skills Demonstrated
 - Data cleaning and type conversion  
 - Filtering and conditional querying  
